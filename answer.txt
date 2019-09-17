@@ -5,8 +5,12 @@ For a typical java project it should include .class files.
 
 • What does fast-forward in Git mean?
 A. When we merge a branch which has more commits than another branch, upon merging the base branch gets updated in a 'fast-forward' method.
+    The master branch as in the assigment never needed to have the commits which test branch needed. Therefore Git auotmativally
+    fast-forwards and ignores the need of the additional commits.
+
 • Why should you have different branches?
 A. To maintain different versions of code.
 To reduce breaking of code/features on faulty updates.
+
 • In a project how many remote Git repositories do you usually have?
 A. 1
